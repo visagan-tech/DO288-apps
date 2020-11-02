@@ -1,4 +1,4 @@
-FROM   centos
-RUN    yum install httpd -y  ; echo   "Hi Valuestar dubai.comU" > /var/www/html/index.html
-CMD   httpd -DFOREGROUND
+FROM centos
+RUN yum install httpd -y; echo "Hello tihs is a web application Visagan Happy Rajyotsava" > var/www/html/index.html
+CMD http -DFOREGROUND
 
